@@ -10,7 +10,7 @@ public class Running_a_Company {
 }
 
 
-class employee{
+class Employee{
   // complete the class as mentioned in the problem statement
 
     int employee_id;
@@ -20,7 +20,7 @@ class employee{
     int vesting_period;
     
     
-    public employee(int id, String n, 
+    public Employee(int id, String n, 
         int s, boolean so, int vp){
         employee_id = id;
         name = n;
@@ -59,10 +59,10 @@ class company{
   // complete the class as mentioned in the problem statement
   
      int size;
-     employee[] arr;
+     Employee[] arr;
      
      
-     public company(int size, employee arr[]){
+     public company(int size, Employee arr[]){
          this.size = size;
          this.arr = arr;
      }
